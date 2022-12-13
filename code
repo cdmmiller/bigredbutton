@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<title></title>
+<body>
+<h1 class = "DONOT">DO NOT PRESS</h1>
+<p class="one" id = shouldntve></p>
+<button id = "btn" class = "dont" onclick = 'document.getElementById("shouldntve").innerHTML = "stupid"'
+ondblclick = 'document.getElementById("shouldntve").innerHTML = "idiot"'>I am a big red button. Do not press me.</button>
+
+</body>
+</html>
+
+<style>
+.DONOT {
+    font-family:arial;
+    font-size:100px;
+    text-align:center;
+    
+    }
+
+.one {
+    font-family:arial;
+    font-size:25px;
+    }
+
+.dont {
+    width:500px;
+    height:500px;
+    position:absolute;
+    top:27%;
+    left:32%;
+    background-color:red;
+    border-radius:100%;
+    border-left:solid transparent;
+    border-right:solid transparent;
+    border-top:solid transparent;
+    border-bottom:solid transparent;
+    font-family:arial;
+    font-size:25px;
+    transition-duration:0.4;
+    cursor:pointer;
+    box-shadow:0px 50px #999;
+    
+    
+    
+    }
+.dont:hover {
+    background-color:#8B0000;
+    
+    }
+    
+.dont:active {
+  background-color: red;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+    }
+
+</style>
+
+<script>
+
+
+
+</script>
